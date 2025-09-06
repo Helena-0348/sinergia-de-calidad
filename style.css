@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "grrr1";
+    src: url("style/Grrr-Bold.otf");
+    font-size: 35px;
+}
+
+@font-face {
+    font-family: "grrr2";
+    src: url("style/Grrr-Regular.otf");
+    font-size: 35px;
+}
+
+h1 {
+    font-family: "grrr1";
+}
+
+a {
+    font-family: "grrr2";
+    text-decoration: none;
+}
+
+body {
+    background-color: #dceef2;
+}
+
+iframe {
+    border: none;
+    width: 100vw;
+    height: 80vh;
+    margin: 0;
+}
+
+#pag_inicio {
+    background-image: url("img/fondo_in.jpeg");
+    background-repeat: no-repeat;
+
+}
+
+img {
+    margin: 0px;
+}
