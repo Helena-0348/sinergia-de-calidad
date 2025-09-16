@@ -1,3 +1,57 @@
+.body-pag-le{
+    background-image: url('./img/fondo_in.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.text{
+    font-family: "codec";
+    font-size: 18px;
+    top: 250px;
+    left: 40px;
+    width: 90vw;
+    color: rgba(0, 0, 0, 0.8);    
+    line-height: 1.5;
+    text-align: justify;
+    
+ 
+
+
+}
+
+.h3-enlace {
+    color: #1800ad;
+    font-family: "grrr2";
+    letter-spacing: 2px;
+    font-size: 25px;
+    right: 10px;
+    padding-left: 800px;
+}
+
+.imagen-rotativa {
+    width: 300px; /* O el tamaño que desees */
+    height: auto;
+    transition: transform 0.5s ease-in-out; /* Suaviza la transición */
+    transform-style: preserve-3d; /* Importante para el efecto 3D */
+}
+
+.espacio{
+      padding: 20px;
+      margin: 45px;
+    }
+.espaciopoquito{
+      padding: 10px;
+      margin: 10px;
+    }
+    .espaciomas{
+        margin: top 100px;;
+    }
+    .caja {
+      margin: 10px;
+      padding: 15px;
+    }
+
 * {
     margin: 0;
     border: 0;
@@ -109,7 +163,20 @@ p {
     padding: 20px;
 }
 
-h2 {
+
+.content-container {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    margin: 50px 10% 50px 10%;
+    padding: 40px;
+    position: relative;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.titulos-h2 {
     color: #2b70e4;
     font-family: "grrr1";
     letter-spacing: 2px;

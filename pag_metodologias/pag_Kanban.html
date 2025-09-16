@@ -1,34 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-        <link rel="stylesheet" href="../style.css" />
-
+    <title>Metodologías en Detalle</title>
+    <link rel="stylesheet" href="../style/pag-kanbam.css">
 </head>
-
 <body>
-    <h2>METODOLOGIAS EN DETALLE</h2>
-    <img src="" alt="">
-    <h3>Kanban</h3>
-    <p>Kanban es una herramienta visual para gestionar procesos y tareas. Se basa en usar un tablero con columnas que
-        representan las diferentes fases del trabajo, por ejemplo: “Por hacer”, “En proceso”, “Hecho”.
 
-        Cada tarea se coloca en una tarjeta y se mueve de una columna a otra a medida que avanza. Esto permite al equipo
-        ver de un vistazo en qué está trabajando cada persona, qué está pendiente y qué ya está terminado.
-    </p>
-    <p>
-        Las principales ventajas de Kanban son:
-         Simplicidad: es muy fácil de entender y usar.
-         Visibilidad: todos pueden ver el estado de las tareas en tiempo real.
-         Flujo de trabajo continuo: ayuda a identificar cuellos de botella y mejorar la productividad.
-         Flexibilidad: no necesita ciclos fijos como Scrum, el trabajo fluye de manera constante.
-        Se utiliza mucho en equipos que requieren organización visual y gestión ágil, no solo en desarrollo de software,
-        sino también en áreas como marketing, diseño o soporte al cliente.
-    </p>
-    <img src="" alt="">
+    <header class="page-header">
+        <div class="header-left">
+            <div class="kanban-title-box">
+                <h1>Kanban</h1>
+            </div>
+        </div>
+        <div class="header-right">
+            <h2>METODOLOGÍAS EN DETALLE</h2>
+        </div>
+    </header>
+
+    <main class="content-wrapper">
+        <section class="kanban-info">
+            <p><strong>Kanban</strong> es una herramienta visual para gestionar procesos y tareas. Se basa en usar un tablero con columnas que representan las diferentes fases del trabajo, por ejemplo: “Por hacer”, “En proceso”, “Hecho”.</p>
+            <p>Cada tarea se coloca en una tarjeta y se mueve de una columna a otra a medida que avanza. Esto permite al equipo ver de un vistazo en qué está trabajando cada persona, qué está pendiente y qué ya está terminado.</p>
+
+            <h3>Las principales ventajas de Kanban son:</h3>
+            <ul>
+                <li><strong>Simplicidad:</strong> es muy fácil de entender y usar.</li>
+                <li><strong>Visibilidad:</strong> todos pueden ver el estado de las tareas en tiempo real.</li>
+                <li><strong>Flujo de trabajo continuo:</strong> ayuda a identificar cuellos de botella y mejorar la productividad.</li>
+                <li><strong>Flexibilidad:</strong> no necesita ciclos fijos como Scrum, el trabajo fluye de manera constante.</li>
+            </ul>
+            <p class="final-text">Se utiliza mucho en equipos que requieren organización visual y gestión ágil, no solo en desarrollo de software, sino también en áreas como marketing, diseño o soporte al cliente.</p>
+        </section>
+
+        <aside class="kanban-board-container">
+            <div class="kanban-board-title">TABLERO KANBAN</div>
+            <div class="kanban-board">
+                <div class="column">
+                    <h4>POR HACER <br> TO DO</h4>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
+                <div class="column">
+                    <h4>EN PROCESO <br> IN PROGRESS</h4>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
+                <div class="column">
+                    <h4>FINALIZADO <br> DONE</h4>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
+            </div>
+        </aside>
+    </main>
 </body>
-
 </html>
