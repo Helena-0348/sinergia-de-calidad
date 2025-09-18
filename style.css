@@ -28,7 +28,7 @@ a {
 }
 
 body {
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: #dceef2;
 
 }
@@ -306,33 +306,33 @@ h4 {
     top: 220px;
 }
 
-#h2_ciclo {
+.h2_proc {
     position: absolute;
     left: 30px;
     top: 30px;
     width: 600px;
 }
 
-#h3_ciclo {
+.h3_proc {
     position: absolute;
     top: 155px;
     left: 75px;
     width: 700px;
 }
 
-#fondo_ciclo{
+#fondo_ciclo {
     position: absolute;
     top: 110px;
     left: 20px;
 }
 
-#robot3{
+#robot3 {
     position: absolute;
     top: 35px;
     right: 40px;
 }
 
-#txt_ciclo1{
+#txt_ciclo1 {
     position: absolute;
     top: 235px;
     left: 40px;
@@ -344,9 +344,83 @@ h4 {
     left: 40px;
 }
 
-#txt_ciclo2{
+#txt_ciclo2 {
     position: absolute;
     top: 370px;
     left: 90px;
     width: 950px;
+}
+
+#fondo_mod {
+    position: absolute;
+    top: 125px;
+    left: 28px;
+}
+
+#txt_data_mod {
+    position: absolute;
+    margin-top: -60px;
+    left: 40px;
+    width: 80vw;
+}
+
+.caja_mod {
+    display: grid;
+    grid-template-columns: 450px 500px;
+    padding: 40px;
+    margin: 45px;
+    border-radius: 30px;
+    margin-top: 80px;
+}
+
+.img_mod {
+    margin-left: 250px;
+    right: 20px;
+}
+
+#mod1 {
+    margin-top: 300px;
+}
+
+#fondo_txt_mod {
+    position: absolute;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+#fin_mod {
+    position: absolute;
+    margin-left: 55px;
+    width: 350px;
+}
+
+#h2_rec {
+    margin-top: 10px;
+    width: 530px;
+}
+
+#op_rec1 {
+    top: 160px;
+    left: 370px;
+}
+
+#op_rec2 {
+    top: 300px;
+    left: 80px;
+}
+
+#op_rec3 {
+    top: 340px;
+    left: 450px;
+}
+
+#op_rec4 {
+    top: 465px;
+    left: 205px;
+}
+
+#pag_gestion {
+    background-image: url("img/fondo_ges.png");
+    height: 100vh;
+    padding: 20px;
 }
